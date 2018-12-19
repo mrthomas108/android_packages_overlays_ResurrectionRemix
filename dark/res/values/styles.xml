@@ -16,6 +16,8 @@
 -->
 <resources>
     <color name="legacy_long_pressed_highlight">@*android:color/background_material_dark</color>
+    <color name="legacy_light_control_normal">#b3ffffff</color>
+
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:colorPrimary">@*android:color/material_grey_900</item>
         <item name="android:colorPrimaryDark">@*android:color/material_grey_900</item>
