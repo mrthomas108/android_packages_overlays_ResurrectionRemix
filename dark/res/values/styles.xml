@@ -17,9 +17,9 @@
 <resources>
     <color name="legacy_long_pressed_highlight">@*android:color/background_material_dark</color>
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault">
-        <item name="android:colorPrimary">@*android:color/primary_device_default_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_device_default_dark</item>
-        <item name="android:colorSecondary">@*android:color/secondary_device_default_settings</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_900</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_grey_900</item>
+        <item name="android:colorSecondary">@*android:color/material_grey_900</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
         <item name="android:colorControlNormal">?android:attr/textColorPrimary</item>
         <item name="android:colorBackgroundFloating">@*android:color/background_material_dark</item>
@@ -27,31 +27,31 @@
     </style>
 
     <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
-        <item name="android:colorPrimary">@*android:color/primary_device_default_dark</item>
-        <item name="android:colorSecondary">@*android:color/secondary_device_default_settings</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_900</item>
+        <item name="android:colorSecondary">@*android:color/material_grey_900</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
     </style>
 
     <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material">
         <item name="android:actionBarTheme">@*android:style/ThemeOverlay.DeviceDefault.ActionBar.Accent</item>
-        <item name="android:colorPrimary">@*android:color/primary_device_default_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_device_default_dark</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_900</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_grey_900</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
         <item name="android:colorEdgeEffect">#ffffffff</item>
-        <item name="android:colorSecondary">@*android:color/secondary_device_default_settings</item>
+        <item name="android:colorSecondary">@*android:color/material_grey_900</item>
         <item name="android:textColorPrimaryInverse">@*android:color/background_material_dark</item>
     </style>
     <style name="Theme.Material.Settings.BaseDialog" parent="@*android:style/Theme.Material.BaseDialog">
-        <item name="android:colorPrimaryDark">@*android:color/primary_material_settings</item>
-        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_grey_900</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_900</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
         <item name="android:colorBackground">#ff151515</item>
     </style>
     <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@*android:style/Theme.Material.Dialog.BaseAlert">
-        <item name="android:colorPrimaryDark">@*android:color/primary_material_settings</item>
-        <item name="android:colorPrimary">@*android:color/primary_material_settings</item>
-        <item name="android:colorSecondary">@*android:color/secondary_material_settings</item>
-        <item name="android:colorBackground">#ff151515</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_grey_900</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_900</item>
+        <item name="android:colorSecondary">@*android:color/material_grey_900</item>
+        <item name="android:colorBackground">@*android:color/material_grey_850</item>
     </style>
 </resources>
