@@ -15,6 +15,7 @@
     limitations under the License.
 -->
 <resources>
+    <color name="legacy_long_pressed_highlight">@*android:color/black</color>
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
@@ -52,13 +53,13 @@
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
-        <item name="android:colorBackground">#ff121212</item>
+        <item name="android:colorBackground">@*android:color/black</item>
     </style>
 
     <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@*android:style/Theme.Material.Dialog.BaseAlert">
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
-        <item name="android:colorBackground">#ff121212</item>
+        <item name="android:colorBackground">@*android:color/black</item>
     </style>
 </resources>
